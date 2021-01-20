@@ -9,7 +9,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #8A94A7;
+  color: #1777D7;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -24,7 +24,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #8A94A7;
+  background-color: #1777D7;
   color: white;
 }
 
