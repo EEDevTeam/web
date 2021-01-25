@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head><script>
+
+function deleteAllCookies() {
+    var cookies = document.cookie.split(";");
+
+    for (var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i];
+        var eqPos = cookie.indexOf("=");
+        var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+        document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+    }
+}
+
+$(document).ready(function() {
+    var test_flag = $.cookie('flag');
+    //get cookie
+    if (test_flag == "flag_is_set") {
+        //if cookie is set clear all cookies once more and redirect
+
+        deleteAllCookies();
+        document.location = "myPage.html";
+    }
+
+    $("#dostuff").click(function() {
+        //if button is clicked
+        //clear all cookies
+        deleteAllCookies();
+        //set a new cookie as flag
+        $.cookie('flag':'flag_is_set');
+        //refresh page
+
+        document.location.reload();
+    });
+
+});​
+
+</script></head>
+
+<body onload="checkCookie()"></body>
+
+<a href="#" id="dostuff">Click me</a>
+</html>
