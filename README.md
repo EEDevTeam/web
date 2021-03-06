@@ -1,4 +1,4 @@
 # EEB
-https://timorams.github.io/dcbotwebpage/
+https://eebdevelopment.github.io/web/
 # Web
-https://timorams.github.io/dcbotwebpage/
+https://eebdevelopment.github.io/web/
