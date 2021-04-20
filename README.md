@@ -1,5 +1,5 @@
 # EEB
-https://eebdevelopment.github.io/web/
+https://eedevteam.github.io/web/
 # Web
-https://eebdevelopment.github.io/web/
+https://eedevteam.github.io/web/
 ------------------------------------
